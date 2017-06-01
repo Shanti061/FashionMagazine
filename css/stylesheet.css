@@ -1,0 +1,576 @@
+/*
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body{ 
+   /* background-image: url("../img/fabric.jpg" );*/
+    margin-top: 50px;
+    background-color:aquamarine;
+    /*color:brown;*/
+    font-size: 14px;
+    
+} 
+
+.container{
+        
+    width: 85% !important;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+#logo{
+    /*float:left;*/
+    margin-top:30px;
+    margin-left:40%;
+    margin-bottom: 10px;
+    /*text-align: center;*/
+    height: 70px;
+    width: 15%;
+    border-radius: 5px;
+    border: 2px blue solid;
+}
+
+/*header function */
+
+/*.active {
+    background-color: #4CAF50;
+    color: white;
+}*/
+
+
+
+.topNav{
+    
+    margin-bottom: 20px;
+    
+    background: black;
+    height: auto;
+    
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px black solid; 
+    
+}
+
+.topNav ul{
+       
+    list-style: none;
+    
+}
+
+/*.topNav ul li{
+    
+    margin-right: 3px;
+   
+    padding: 0 20px;
+    
+}*/
+
+.topNav ul li a{
+    display: block;
+    float:left;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff; 
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 25px;
+     text-align: center;
+}
+
+.topNav ul li a:hover {
+    /* background-color: #ddd;*/
+    color:aqua;
+    
+}
+
+
+.topNav .icon {
+    color:aqua;
+  display: none;
+}
+
+
+/* drop down menu */
+
+/*.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+     dropdown content hidden by default  
+    display: none;
+    position:absolute;
+    min-width: 160px;
+    z-index: 1;
+    
+}*/
+
+/*links inside the dropdown content */
+/*.dropdown-content a{
+    
+    color: aliceblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+}*/
+
+/*show the dropdown on hover */
+/*.dropdown:hover .dropdown-content{
+    display: block;
+}*/
+
+/* Hide the link that should open and close the topnav on small screens */
+/*.main .icon {
+    display: none;
+}*/
+
+
+/* hero   */
+/* headings  */
+video{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    border:5px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+    font-weight: bold;
+}
+
+#topBtn:hover {
+  background-color: aqua;
+}
+
+
+#fashion, #newsUpdate{
+    
+    color:black;
+    font-size: 35px;
+    margin-top: 35px;
+    padding-bottom: 20px;
+    font-family: 'Freckle Face', cursive;
+    text-shadow: 5px 3px 5px black;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+#newsUpdate{
+    
+    padding-top: 30px;
+}
+
+
+#hero {
+    /*background: aqua;*/
+    height: auto;
+    
+}
+
+
+
+.news{
+    width: 100%;
+}
+
+/*3 news blocks*/
+
+#news-block, #newsMiddle, #newsRight{
+    float: left;
+    background-color:black;
+    color: whitesmoke;
+    display: block;
+    /*padding: 22px;*/
+    width: 32%;
+    height: 500px;
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 10px;
+   text-align: justify;
+    
+}
+
+
+
+ a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color:aqua;
+}
+
+/*<!--block section ends here -->*/
+
+
+/*WHAT'S NEW SECTION*/
+
+.whatsNew{
+   /* width: 100%;*/
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.whatsNew img{
+    border: 5px solid white;
+}
+
+#blockImage img{
+    
+    width: 90%;
+    height: auto;
+}
+
+/*.whatsNew img{max-width: 60%; height: auto;}*/
+.side-box img{width: 90%; height: 150px;}
+
+/*#stories{
+    position: relative;
+    left: 600px;
+    color:cornflowerblue;*/
+    /*float:right;*/
+    /*margin-top: 100px;
+    font-weight: 700;
+    text-decoration: underline;*/
+    
+    /*text-shadow: 2px 1px 5px white;*/
+/*}*/
+
+.side-box{
+    
+   margin-top: 20px;
+    margin-right: 20px;
+   font-weight: bold;
+    display:inline-block;
+    background: #ddd;
+    width: 35%;
+    height: 250px;
+    color: black;
+    padding-top: 20px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.stories-box{
+   margin-top: 20px;
+    margin-right: 20px;
+    /*float:left;*/
+    display:inline-block;
+   
+    width: 30%;
+    height: 250px;
+    color: yellowgreen;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.box{
+    display: block;
+    text-align:center;
+    margin-top: 15px;
+}
+
+/*.side-box hr{
+    
+    width: 100%;
+    border: 1px solid white;
+}*/
+
+#sideVideo{
+   width: 80%;
+    height: 200px;
+    margin: 20px;
+    
+    
+}
+
+.side-box h1{
+    text-align: center;
+    margin: 15px;
+}
+
+hr{
+    margin-top: 20px;
+    width: 90%;
+    border: 1px solid black;
+    
+}
+
+.article{
+    margin: 0 auto;
+     width:80%;
+}
+
+.whatsNew, .beauty{
+   
+    clear:left;
+    margin-top: 20px;
+    padding: 20px;
+    /*width: 900px;*/
+   /* background:rgba(63, 144, 92, 0.3);*/
+    background-color: black;
+}
+
+.beauty{width: 100%;}
+
+
+#whatNew, #gallery, #celebrity, #beauty{
+    
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Freckle Face', cursive;
+    text-shadow: 1px 1px 2px black, 0 0 25px aqua, 0 0 5px cyan;
+   /*margin-top: 10px;*/
+    letter-spacing: 3px;
+}
+
+
+
+h1{
+    color:aliceblue;
+    padding-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Cantata One', cursive;
+}
+
+
+h2{
+    font-size: 20px;
+    font-family: 'Cantata One', cursive;
+    margin-top: 50px;
+    color: white;
+}
+
+h3 {
+    font-size:40px;
+    font-family: 'Cantata One', cursive;
+    font-weight: bold;
+    color: cyan;
+    text-shadow:1px 2px 5px white;
+    text-decoration: underline;
+    
+
+}
+
+/*what's new section ends here*/
+
+/*carousel functions */
+.mySlides {display:none; width: 100% !important;}
+.w3-left, .w3-right, .w3-badge {cursor:pointer; height: 20px; width: 20px;}
+.w3-badge {height:20px;width:20px;padding:0}
+
+.mySlide{display: none;}
+
+
+.slides {display:none;
+width: 100%; height: auto;}
+.demo {cursor:pointer;}
+
+/*footer    */
+
+footer{
+   clear:left;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#copyright{
+    
+    background: black;
+    height: 70px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top:20px; 
+}
+
+
+
+
+/*MEDIA QUERIES*/
+
+
+/* top menu-media queries*/
+
+/*@media screen and (max-width: 600px){
+    header nav ul li {float: none;} 
+}*/
+
+ 
+
+@media screen and (max-width: 600px){
+    
+    .topMenu.responsive {position: relative;}
+    .topMenu.responsive a.icon{
+        position: absolute;
+        right: 0;
+        top:0;
+    }
+    
+    .topMenu.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+/* For mobile phones */
+/*[class*="container"]{
+    width: 100%;
+}*/
+@media screen and (max-width:980px){
+    .topNav ul  li  a{padding: 10px;}
+    
+    #news-block, #newsMiddle, #newsRight{
+   padding: 10px;
+    width: 31%;
+    height: 400px;
+    font-size:10px;
+    }
+        .blockImage img{
+        width: 80%;
+        height: 200px;
+    }
+}
+    
+    
+
+@media screen and (max-width: 800px) {
+ .topNav ul  li  a:not(first-child) {
+     
+     display: none;
+    }
+ .topNav a.icon {
+     color: aqua;
+    float: right;
+    display: block;
+  }
+    
+   #logo{width: 15%; margin-top: 30px;}
+}
+
+@media screen and (max-width: 800px) {
+ .topNav.responsive {position: relative;}
+.topNav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+.topNav.responsive ul li a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+    .stories-box{margin-right: 0;}
+}
+
+@media only screen and (max-width: 800px){
+    
+    .container{width: 70%;}
+    
+    #logo{width: 15%; margin-top: 30px;}
+    
+    
+    .news{width: 100%;}
+    .whatsNew{width: 100%; }
+    
+    #news-block, #newsMiddle, #newsRight{
+   padding: 20px;
+    width: 80%;
+    height: 300px;
+    font-size:10px;
+        
+        
+    
+}
+    .blockImage{
+        padding-left: 20px;
+        width: 100%;
+        height: auto;
+    }
+    #whatNew, #gallery, #celebrity, #beauty{font-size: 30px;}
+    #logo{width: 25%;}
+    
+}
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    
+    /*.topNav ul li a {
+        margin: 5px;
+        float: none;
+        width: 80%;
+        height: auto;
+        border-bottom: 1px solid white;
+        padding: 5px;
+    }
+    */
+   /* .topNav a.icon{
+        display: none;
+    }*/
+    
+    .main{width: 100%;}
+    h1{ font-size: 10px;}
+    h2{font-size: 10px;}
+    #whatNew,#beauty,#gallery,#celebrity {font-size: 25px;}
+    h3{font-size: 20px;}
+    #logo{width: 30%; }
+    .stories-box{margin-right: 0;}
+    
+    #fashion, #newsUpdate{font-size:15px; padding-top:0;}
+    #copyright{font-size: 10px;}
+}
+
+
+
+
+@media screen and (max-width:480px) {
+ 
+ #fashion, #newsUpdate{font-size:12px; padding-top:0;}
+    #news-block, #newsMiddle, #newsRight{
+   padding: 20px;
+    width: 80%;
+    height: 350px;
+    font-size:10px;
+    }
+    
+    .moreStories h1{font-size:25px;}
+    .side-box{width: 50%; padding-left: 0}
+}
+
