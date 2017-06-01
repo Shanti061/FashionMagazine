@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Fashion Magazine</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        <!--favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="../DPP-Project2/img/favicon1.ico">
+        
+        <link href="css/stylesheet.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ceviche+One|Freckle+Face|Rock+Salt|Permanent+Marker|Cantata+One" rel="stylesheet">
+        <!--<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">-->
+
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+        
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    
+
+    
+<body> 
+  
+  <img id="logo"  src="../DPP-Project2/img/logo.png" alt="logo one" />
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fa fa-arrow-circle-up fa-2x"></i>
+    </button>
+    
+      <div class="container">
+        <div class="main">
+        <div class="topNav" id="topMenu"> 
+         
+            
+         <!--<div class="row">
+                 <div class="col-md-2">
+                        <div class="site-logo">
+                            <a href="index.html" class="brand"><h1>Fashion Mag</h1></a>
+                        </div>
+                </div>
+                       -->                   
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+               
+                        <ul>
+                                <li ><a href="#intro">Home</a></li>
+                                <li><a href="#whatNew">What's New?</a></li>
+				                <!--<li><a href="#magazines"> The Magazines</a></li>-->
+                                <li><a href="#beauty">beauty</a></li>
+                            <!--  <div class="dropdown">   
+                            <button class="dropbtn">Beauty</button>
+                                 
+                                <div class="dropdown-content">
+                               <li> <a href="#">Hair</a> </li>
+                              <li>  <a href="#">Makeup</a> </li> 
+                               </div>  
+                            </div>-->
+                                <li><a href="#celebrity">Celebrity</a></li>
+                                <li><a href="#gallery">Gallery</a></li>  
+                            <li><a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="menuFunction()"> &#9776;</a></li>                                                   
+                                
+                        </ul>
+                   
+                <!-- /.Navbar -->
+            </div>        
+        </div> 
+    </div>  <!-- /.container -->
+
+    
+    <div id="hero">
+        <div class="container">
+           <p>
+                            
+               
+            <div id="fashion"> 
+            </div>   <!-- value from js -->
+            
+            <div class="video">
+                 
+                 <!--<video  poster="../DPP-project/Bocor/img/spark.jpg" id="bg_video" > for image-->
+                  <video autoplay loop  alt="fashion">
+                    <source src="../DPP-Project2/videos/fashion.mp4" type="video/mp4" >
+                     <source src="../DPP-Project2/videos/fashion.mp4" type="video/web4" >
+                     
+                            
+                            Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            
+            <!--<img src="img/model.jpg" width= "900px" height="400px"  />-->
+            </p> 
+        </div>
+        
+        
+    </div> <!-- end hero-->
+    
+    
+    
+    <div class="container">
+        <div id="newsUpdate">  </div> <!-- text from js -->
+    
+    </div> 
+    
+    <!--3 blocks-->
+    <div class="container">
+        <div class="featuredContent">
+            
+            <div id="news-block">
+                <div class="blockImage">
+                    <a href="index.html">
+                    <img src="img/portrait.jpg" width="90%" height="300px" alt="model pic" />
+                    </a>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et justo duo dolores et ea rebum. <a href="#content" target="framename"> >>>more</a> </p>
+                
+            </div>
+        
+        <!--<h2>Top News</h2>-->
+        <div id="newsMiddle">
+            <div class="blockImage">
+                <a href="index.html">
+                    
+                    <img src="img/items.jpg" width="90%" height="300px" alt="model pic" />
+                </a>
+                
+            </div>
+            <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr. <a href="#content" target="framename"> >>>more</a>  </p>
+        
+        </div>
+        <!--<h2>Top News</h2>-->
+        
+        <div id="newsRight">
+            
+            <div class="blockImage">
+                <a href="index.html">
+                    <img src="img/purple.jpg" width="90%" height="300px" alt="model pic" />
+                </a>
+            </div>
+            
+            <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.<a href="#content" target="framename"> >>>more</a>  </p>
+        
+        </div>
+            
+    </div> <!-- end of featureContent-->
+    </div><!--end of side container-->
+    
+    
+    <div class="article">
+              
+        <div class="whatsNew">
+            
+            <h2 id="whatNew">WHAT'S NEW???</h2>
+            <hr>
+            <!--<h3>FASHION TREND</h3>-->
+            
+            <div class="row">
+            <div class="whatsHeading">  
+                
+            <h3>Styling a scarf</h3>
+            <div class="w3-content w3-section" >
+              <img class="mySlide" src="../DPP-Project2/img/scarf0.jpg" style="width:100%">
+              <img class="mySlide" src="../DPP-Project2/img/scarf1.jpg" style="width:100%">
+              <img class="mySlide" src="../DPP-Project2/img/scarf3.jpg" style="width:100%">
+            </div>
+                
+                 <br /> <br/> <br /> <br/>
+            <h3>Street Style Dress Styling</h3>     
+            
+        
+            </div>
+                <!--<div class="col-4">
+                    <div class="stories">
+                        <h1 id="stories">More stories</h1> 
+                        </div>
+                    <div class="side-box">
+                      <img src="img/converse.jpg" width="100px" height="100px"  />
+                     <a href="#converse">Styling a converse</a>
+                    <video id="sideVideo"  controls>
+                     <source src="videos/tshirtFol.mp4" >
+                     </video>
+                    <hr>
+                        <img src="img/streetwear-1657192_1280.jpg" width="100px" height="100px"/>
+                        <a href="#simple">Keeping it simple</a>
+                    <hr>
+                        <img src="img/model.jpg" width="100px" height="100px"/>
+                        <a href="#winter">Winter looks</a>
+                    <hr>
+                    </div>
+                </div>
+            </div>    
+              -->
+                
+            <div class="w3-content w3-display-container" style="max-width:800px">
+          <img class="mySlides" src="../DPP-Project2/img/dress.jpg" style="width:100%">
+          <img class="mySlides" src="../DPP-Project2/img/dress2.jpg" style="width:100%">
+          <img class="mySlides" src="../DPP-Project2/img/dress3.jpg" style="width:100%">
+          <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+            <!--<div class="w3-left w3-hover-text-red" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-red" onclick="plusDivs(1)">&#10095;</div>-->
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+          </div>
+                <button class="w3-button w3-display-left w3-blue" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-blue" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+            
+            <!--<h2>1. Wear it casually, with a pair of nice boots.</h2>
+            <img src="../DPP-Project2/img/dress.jpg"  />
+            <h2>2. Layer it up with a jacket and accessorise with a belt.</h2>
+            <img src="../DPP-Project2/img/dress2.jpg"  />
+            <h2>3. Tie a shirt above to give a funky look.</h2>
+            <img src="../DPP-Project2/img/dress3.jpg" />
+            <h2>4. Flaunt an evening gown with the minimal accesories.</h2>
+            <img src="../DPP-Project2/img/dress4.jpg" />
+            <h2>5.Pair it with sunglasses and high heels.</h2>
+            <img src="../DPP-Project2/img/model1.jpg"  />
+        
+        -->
+               
+            
+            
+            <!--<h2>1. Tie around the forehead for a cool look.</h2>
+            <img src="../DPP-Project2/img/scarf0.jpg" width="700px" height="500px"/>
+            <h2>2. Leave it hanging around the body for a warm look.</h2>
+            <img src="../DPP-Project2/img/scarf1.jpg" width="700px" height="500px" />
+            <h2>3. Wrap around your head.  </h2>
+            <img src="../DPP-Project2/img/scarf3.jpg" width="700px" height="500px" />
+            <h2>4.Wear it like a shawl.</h2>
+            <img src="../DPP-Project2/img/scarf2.jpg" width="500px" height="500px" />
+            <h2>5. Create a cool look. </h2>
+            <img src="../DPP-Project2/img/scarf.jpg" width="500px" height="500px" />-->
+        
+        
+        </div>
+        <div class="moreStories">
+            <h1>More stories</h1> 
+            <div class="row">
+                <div class="stories-box">
+                     <a href="#converse"> <img src="img/converse.jpg" width="80%" height="60%"  />
+                    <span class="box">Styling a converse</span></a>
+                </div>
+                    <!--<video id="sideVideo"  controls>
+                     <source src="videos/tshirtFol.mp4" >
+                     </video>-->
+                <div class="stories-box">
+                    <a href="#simple">
+                        <img src="img/streetwear-1657192_1280.jpg" width="80%" height="60%"/>
+                    <span class="box">Keeping it simple</span></a>
+                </div>
+                
+                <div class="stories-box">
+                   <a href="#winter">
+                        <img src="img/model.jpg" width="80%" height="60%"/>
+                    <span class="box">Winter looks</span></a>
+                </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+    
+    <!--<div id="container">
+        
+        <div class="whatsNew">
+            <hr>
+            <h2 id="magazines">THE MAGAZINES</h2>
+        </div>
+    </div>-->
+    
+    <div class="container">
+        
+        <div class="beauty">
+            
+            <h2 id="beauty">BEAUTY</h2>
+            <hr>
+            
+            <div class="row">
+              
+                    <div class="stories">
+                        <h3>Trending beauty stories</h3>
+                        </div>
+                    <div class="side-box">
+                        <a href="#color">
+                      <img src="img/haircolor.jpg" width="100%" height="auto"  />
+                        <span class="box">Hair color tips</span></a>
+                    </div>
+                    <!--<video id="sideVideo"  controls>
+                     <source src="videos/tshirtFol.mp4" >
+                     </video>-->
+                
+                    <div class="side-box">
+                        <a href="#skindeep">
+                        <img src="img/skindeep.jpg" width="100%" height="auto"/>
+                        <span class="box">Skin care</span></a>
+                    </div>
+                
+                     <!--<div class="side-box">   
+                        <img src="img/hairstyle.jpg" width="100p%" height="auto"/>
+                        <a href="#hairstyle"><span class="box">Designing your hair</span></a>
+                    
+                    </div>-->
+                        <!--<img src="img/beauty.jpg" width="100px" height="80px"/>
+                        <a href="#beauty">Beauty tips</a>
+                    <hr>-->
+                        
+               
+            </div>   
+            <br/> <br/>
+            <h3>Trending hair styles</h3>
+            
+            <div class="w3-content" style="max-width:600px">
+              <img class="slides" src="../DPP-Project2/img/hair3.jpg" >
+              <img class="slides" src="../DPP-Project2/img/hair1.jpg" >
+              <img class="slides" src="../DPP-Project2/img/hair.jpg" >
+
+              <div class="w3-row-padding w3-section">
+                <div class="w3-col s4">
+                  <img class="demo w3-opacity w3-hover-opacity-off" src="../DPP-Project2/img/hair3.jpg" style="width:100%" onclick="currentDiv(1)">
+                </div>
+                <div class="w3-col s4">
+                  <img class="demo w3-opacity w3-hover-opacity-off" src="../DPP-Project2/img/hair1.jpg" style="width:100%" onclick="currentDiv(2)">
+                </div>
+                <div class="w3-col s4">
+                  <img class="demo w3-opacity w3-hover-opacity-off" src="../DPP-Project2/img/hair.jpg" style="width:100%" onclick="currentDiv(3)">
+                </div>
+              </div>
+            </div>
+
+
+            
+            
+            
+            
+            
+            <!--
+            <h2>1. A very nice tight curls.</h2>
+            <img src="../DPP-Project2/img/hair.jpg"  />
+            <h2>2. Give a new look to your hair with a layer cut.</h2>
+            <img src="../DPP-Project2/img/hair1.jpg"  />
+            <h2>3. Classic look with fringe and straight hair.</h2>
+            <img src="../DPP-Project2/img/hair2.jpg" />
+            <h2>3. Short and sweet hair style for all.</h2>
+            <img src="../DPP-Project2/img/hair3.jpg" />-->
+            
+            
+            
+        </div>
+    </div>
+    
+    <div class="container">
+        
+        <div class="celebrity">
+            
+            <h2 id="celebrity">CELEBRITY</h2>
+            <hr>
+        </div>
+    </div>
+    
+    <div class="container">
+        
+        <div class="gallery">
+            
+            <h2 id="gallery">GALLERY</h2>
+            <hr>
+        </div>
+    </div>
+
+    
+    <footer class="main">
+        <div class="container">
+            <div id="copyright">
+                <p>Copyright &copy; 2017 <strong>Fashion Magazine</strong></p>
+            </div>
+        </div>    
+    </footer> 
+    
+    
+    <script src="../DPP-Project2/js/project.js"> </script>
+</body>
+    
+</html>
