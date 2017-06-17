@@ -159,10 +159,10 @@ video{
   z-index: 99;
   border: none;
   outline: none;
-  background-color: black;
+  background-color: gray;
   color: white;
   cursor: pointer;
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
     font-weight: bold;
 }
@@ -271,6 +271,7 @@ a:hover{
     
    margin-top: 20px;
     margin-right: 20px;
+    margin-left:5%;
    font-weight: bold;
     display:inline-block;
     background: #ddd;
@@ -447,6 +448,12 @@ footer{
         display: block;
         text-align: left;
     }
+    
+   #topBtn {
+   bottom: 10px;
+   padding: 5px;
+   }
+
 }
 
 /* For mobile phones */
@@ -458,7 +465,7 @@ footer{
     
     #news-block, #newsMiddle, #newsRight{
    padding: 10px;
-    width: 31%;
+    width: 32%;
     height: 400px;
     font-size:10px;
     }
@@ -482,6 +489,10 @@ footer{
   }
     
    #logo{width: 15%; margin-top: 30px;}
+   
+   #topBtn{float:right;
+       margin-right:-15px;
+   }
 }
 
 @media screen and (max-width: 800px) {
@@ -512,8 +523,8 @@ footer{
     
     #news-block, #newsMiddle, #newsRight{
    padding: 20px;
-    width: 80%;
-    height: 300px;
+    width: 31.5%;
+    height: 380px;
     font-size:10px;
         
         
@@ -532,29 +543,31 @@ footer{
 @media only screen and (max-width: 600px) {
     /* For mobile phones: */
     
-    /*.topNav ul li a {
-        margin: 5px;
-        float: none;
-        width: 80%;
-        height: auto;
-        border-bottom: 1px solid white;
-        padding: 5px;
-    }
-    */
-   /* .topNav a.icon{
-        display: none;
-    }*/
-    
+   
     .main{width: 100%;}
     h1{ font-size: 10px;}
     h2{font-size: 10px;}
     #whatNew,#beauty,#gallery,#celebrity {font-size: 25px;}
     h3{font-size: 20px;}
     #logo{width: 30%; }
-    .stories-box{margin-right: 0;}
-    
+    .stories-box{margin-right: 0;
+        width:100%;
+    }
+    .side-box{
+        width:100%;
+        margin-left:1%;
+    }
     #fashion, #newsUpdate{font-size:15px; padding-top:0;}
     #copyright{font-size: 10px;}
+    #news-block, #newsMiddle, #newsRight{
+   
+    width: 31%;
+    height: 450px;
+    font-size:10px;
+    }    
+    
+    .stories-box{height:300px;}
+    
 }
 
 
@@ -562,15 +575,38 @@ footer{
 
 @media screen and (max-width:480px) {
  
- #fashion, #newsUpdate{font-size:12px; padding-top:0;}
+ #fashion, #newsUpdate{font-size:16px; padding-top:0;}
     #news-block, #newsMiddle, #newsRight{
    padding: 20px;
-    width: 80%;
-    height: 350px;
+    width: 100%;
+    height: 300px;
     font-size:10px;
     }
     
-    .moreStories h1{font-size:25px;}
-    .side-box{width: 50%; padding-left: 0}
+    .moreStories h1{font-size:20px;}
+    .side-box{width: 100%; padding-left: 2%;}
+    
+    #topBtn {
+   /* font-size: 12px;*/
+    bottom: 10px;
+    padding: 5px;
+  }
+  
+  .stories-box{
+      height:300px;
+      width: 100%;
+      padding-top:5px;
+  }
+
+
+
 }
 
+@media screen and (max-width:400px) {
+    #topBtn {
+ 
+  bottom: 10px;
+   padding: 3px;
+  /*margin-right:0px;*/
+} 
+}
